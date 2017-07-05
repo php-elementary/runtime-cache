@@ -129,5 +129,7 @@ class RuntimeCache implements CacheInterface
     public function clear()
     {
         $this->cache = [];
+
+        return true;
     }
 }
