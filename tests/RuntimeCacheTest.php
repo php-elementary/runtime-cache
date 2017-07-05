@@ -2,13 +2,13 @@
 
 namespace elementary\cache\Runtime\Test;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use elementary\cache\Runtime\RuntimeCache;
 
 /**
  * @coversDefaultClass \elementary\cache\Runtime\RuntimeCache
  */
-class RuntimeCacheTest extends PHPUnit_Framework_TestCase
+class RuntimeCacheTest extends TestCase
 {
     /**
      * @var RuntimeCache
